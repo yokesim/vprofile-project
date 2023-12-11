@@ -31,7 +31,7 @@ services:
     image: yokesim/vprofileapp
     container_name: vproapp
     ports:
-     - "8080:8080"
+      - "8080:8080"
     volumes:
       - vproappdata:/usr/local/tomcat/webapps
 
